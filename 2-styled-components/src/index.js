@@ -27,21 +27,24 @@ const device = {
 const Header = styled.h1`
 @media ${device.mobileS} { 
   color:green;
+  font-size: 24px;
 }
 
 @media ${device.mobileM} {
-  color:green
+  color:green;
+  font-size: 24px;
 }
 
 @media ${device.mobileL} { 
   color:green;
+  font-size: 24px;
 }
 @media ${device.laptop} {
-  color:red
+  color:red;
 }
 
 @media ${device.desktop} {
-  color:red
+  color:red;
 }
 `;
 const Hero = styled(Header)`color:blue;font-size:100px`;
